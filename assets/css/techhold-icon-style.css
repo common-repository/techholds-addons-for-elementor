@@ -1,0 +1,12 @@
+.techholds-logo-icon:after {
+    content: '';
+    background-image: url("../images/techholds-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: 7px;
+}

@@ -1,0 +1,39 @@
+.techholds-ea-rating-stars {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.techholds-ea-rating-stars .star {
+    color: #dddddd;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.techholds-ea-rating-stars .star.active i,
+.techholds-ea-rating-stars .star.fractional i:first-child {
+    color: #ffcc00;
+}
+
+.techholds-ea-rating-stars .star.fractional {
+    position: relative;
+    display: inline-flex;
+}
+
+.techholds-ea-rating-stars .star.fractional i:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.techholds-ea-thanks-rating-text {
+    display: none;
+}
